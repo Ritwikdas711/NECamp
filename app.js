@@ -21,7 +21,7 @@ var indexRoutes=require("./routes/index");
 }); */
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://Ritwik:Ritwik@054@necamp.yinx9.mongodb.net/ne_camp?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://Ritwik:Webdevbootcamp@necamp.yinx9.mongodb.net/ne_camp?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
