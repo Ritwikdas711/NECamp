@@ -18,6 +18,6 @@
 .footer {
     background-color: gray;
     position: fixed;
-    bottom: 30px;
+    bottom: 0px;
     width: 100%;
 }
