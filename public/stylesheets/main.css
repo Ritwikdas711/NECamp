@@ -15,7 +15,8 @@
     display: inline;
 }
 
-#footer {
+.footer {
+    background-color: gray;
     position: fixed;
     bottom: 30px;
     width: 100%;
