@@ -16,7 +16,7 @@
 }
 
 #footer {
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     width: 100%;
 }
