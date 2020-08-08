@@ -15,8 +15,13 @@ var commentRoutes=require("./routes/comments");
 var campgroundRoutes=require("./routes/campgrounds");
 var indexRoutes=require("./routes/index");
 
+/* mongoose.connect('mongodb://localhost:27017/ne_camp', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}); */
+
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/ne_camp', {
+mongoose.connect('mongodb+srv://Ritwik:Ritwik@054@necamp.yinx9.mongodb.net/ne_camp?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
